@@ -1,12 +1,19 @@
 body{
-  font-family: sans-serif;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size:110%;
-  background-color: #ffffff;
+  color: navy;
+  background-color: #fffd81;
 }
 
 header {
   text-align: center;
-  background-color: #343330;
+  background-color: hsla(298, 100%, 33%, 0.685);
+}
+
+.nav-menu {
+  border: 1px green;
+  background-color: aquamarine;
+  text-align: center;
 }
 
 footer {

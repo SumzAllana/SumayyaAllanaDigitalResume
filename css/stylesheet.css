@@ -46,28 +46,24 @@ h2 {
   list-style-type: none;
 }
 
-#sidebar {
-  width: 20%;
+.nav-menu {
   color: white;
-  background-color: aquamarine;
-  padding-left: 0.5em;
-
+  display: flex;
+  justify-content:space-between
 }
 
 section{
   display: flex;
 }
 
-.nav-menu {
-  list-style-type: none;
+#sidebar {
+  width: 15%;
   color: white;
-  padding-left: 0%;
-}
-
-nav {
+  background-color: aquamarine;
+  padding-left: 0.5em;
   padding-top: 0.5%;
   font-size: 1em;
-}
+
 
 #content {
   border: black;
@@ -82,7 +78,6 @@ nav {
 
 footer {
   background-color: #343330;
-  text-align: center;
   padding-top: 0.5%;
 }
 

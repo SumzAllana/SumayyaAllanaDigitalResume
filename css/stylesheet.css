@@ -12,7 +12,6 @@ body{
 header {
   text-align: center;
   background-color: hsla(298, 100%, 33%, 0.658);
-  font-size: 40px;
   color: white;
   padding: 5%;
   border:#807b7b;
@@ -22,13 +21,14 @@ header {
 
 
 #profilepicture {
-  border-radius: 55%;
+  border-radius: 100%;
 }
 
 h1{
   text-decoration:underline;
   text-decoration-color:aqua;
   color: cornsilk;
+  font-size: 2em;
 
 }
 
@@ -40,7 +40,7 @@ h2 {
 
 #intro {
   text-align: left;
-  font-size: 40px;
+  font-size: 2em;
   padding-bottom: 0%;
   text-align: justify;
   list-style-type: none;
@@ -50,7 +50,7 @@ h2 {
   width: 20%;
   color: white;
   background-color: aquamarine;
-  padding-left: 30px;
+  padding-left: 0.5em;
 
 }
 
@@ -66,7 +66,7 @@ section{
 
 nav {
   padding-top: 0.5%;
-  font-size: 30px;
+  font-size: 1em;
 }
 
 #content {

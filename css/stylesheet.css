@@ -72,6 +72,7 @@ a {
 #ContactInfo {
   list-style-type: none;
   padding-left: 0%;
+  font-weight: bold;
 }
 
 #Interests {
@@ -85,7 +86,7 @@ a {
   background-color: aquamarine;
   color: gray;
   padding-left: 3%;
-  font-size: 1vw;
+  font-size: 1.1vw;
   display: flex;
   flex-direction: column;
 }
@@ -95,7 +96,7 @@ a {
   width: 290%;
   height: 100%;
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  font-size: 1vw;
+  font-size: 1.1vw;
   padding-left: 10%;
   color: navy;
   background-color: rgba(100, 148, 237, 0.61);
@@ -132,23 +133,9 @@ footer{
   font-size: 1.5vw;
 }
 
-.icons{
-  width: 100px;
-  align-items: center;
-  margin-bottom: 1%;
-}
 
 #scratch{
   border-radius: 100%;
-  width: 9vw ;
-}
-
-#phoneicon{
-  border-radius: 100%;
+  width: 15vw ;
   margin-bottom: 1.5%;
-}
-
-#Cellphone{
-  color: black;
-  font-size: 2em;
 }

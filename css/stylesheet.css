@@ -46,11 +46,11 @@ text-align:left;
 list-style-type: none;
 }
 
-/* My Main Information Division and Styling*/
-
 section{
   display: flex;
 }
+
+/* Horizontal Navigational Menu Styling*/
 
 menu {
   list-style-type: none;
@@ -73,36 +73,44 @@ a {
   color: navy;
 }
 
-#contactInfo {
-  margin-left: 0%;
-  padding-left: 0%;
-  font-weight: bold;
-  padding-top: 0%;
-  margin-top: 0%;
-}
-
-#interests {
-  padding-left: 0%;
-}
+/*Personal Information Styling*/
 
 #sidebar {
   width: 25vw;
   padding-right: 3%;
   background-color: rgba(127, 255, 212, 0.384);
   color:navy;
-  padding-left: 3%;
   font-size: 1.3vw;
   display: flex;
   flex-direction: column;
 }
 
+#sidebar li {
+  list-style-type: none;
+  width: 50vw;
+}
+
+#sidebar h2 {
+  margin-left: 10%;
+}
+
+#contactInfo {
+  font-weight: bold;
+}
+
+
+#interests {
+  padding-left: 0%;
+}
+
+/*Education and Experience Styling*/
 
 #content {
   width: 75vw;
   height: 100%;
   font-family:sans-serif;
   font-size: 1.3vw;
-  padding-left: 10%;
+  padding-left: 5%;
   color: navy;
   background-color: rgba(100, 148, 237, 0.199);
   border-radius: 0%;
@@ -118,15 +126,16 @@ h2{
 
 .references {
   list-style-type: none;
+  padding-left: 0%;
 }
 
-#skills{
+#skills {
   margin-left: 0%;
   padding-left: 0%;
 }
 
 
-#content{
+#content  {
   display:flex;
   flex-direction: column;
   justify-content: space-around;
@@ -135,16 +144,15 @@ h2{
 
 /* My Footer Styling*/
 
-footer{
+footer  {
   padding-top:0.5%;
   background-color:whitesmoke;
   text-align: center;
   color: black;
-  font-size: 1.5vw;
+  font-size: 2vw;
 }
 
-
-#scratch{
+#scratch  {
   border-radius: 100%;
   width: 15vw ;
   margin-bottom: 1.5%;

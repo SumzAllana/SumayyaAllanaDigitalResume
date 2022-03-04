@@ -1,14 +1,16 @@
 * {
   box-sizing: border-box;
 } 
-
 body{
-  color: navy;
   background-color: whitesmoke;
 }
 
-/* My Header and Picture Styling*/
+/*Layout of the page*/
+section{
+  display: flex;
+}
 
+/* My Header and Picture Styling*/
 header {
   text-align: center;
   background-color: hsla(298, 100%, 33%, 0.486);
@@ -20,8 +22,6 @@ header {
   border-width: 0.2em;
   font-size: 0.8vw;
 }
-
-
 #profilePicture {
   width: 16vw;
   border-radius: 90%;
@@ -29,7 +29,6 @@ header {
   margin-bottom: 5em;
   margin-right: 1em;
 }
-
 h1{
   text-decoration-color:rgba(0, 255, 255, 0.74);
   color: white;
@@ -38,7 +37,6 @@ h1{
   text-align: left;
   padding-left: 5%;
 }
-
 #intro {
 font-size: 1.6vw;
 padding-left: 5%;
@@ -46,12 +44,7 @@ text-align:left;
 list-style-type: none;
 }
 
-section{
-  display: flex;
-}
-
 /* Horizontal Navigational Menu Styling*/
-
 menu {
   list-style-type: none;
   width: 100%;
@@ -68,13 +61,11 @@ menu {
   padding-top: 1%;
   padding-bottom: 1%;
 }
-
 a {
   color: navy;
 }
 
 /*Personal Information Styling*/
-
 #sidebar {
   width: 25vw;
   padding-right: 3%;
@@ -84,27 +75,21 @@ a {
   display: flex;
   flex-direction: column;
 }
-
 #sidebar li {
   list-style-type: none;
   width: 50vw;
 }
-
 #sidebar h2 {
   margin-left: 10%;
 }
-
 #contactInfo {
   font-weight: bold;
 }
-
-
 #interests {
   padding-left: 0%;
 }
 
 /*Education and Experience Styling*/
-
 #content {
   width: 72.5vw;
   height: 100%;
@@ -118,12 +103,10 @@ a {
   border-width: 0.2em;
   border-color: whitesmoke;
 }
-
 h2{
   text-decoration: underline;
   text-decoration-color: navy;
 }
-
 .references {
   list-style-type: none;
   padding-left: 0%;
@@ -133,8 +116,6 @@ h2{
   margin-left: 0%;
   padding-left: 0%;
 }
-
-
 #content  {
   display:flex;
   flex-direction: column;
@@ -143,7 +124,6 @@ h2{
 }
 
 /* My Footer Styling*/
-
 footer  {
   padding-top:0.5%;
   background-color:whitesmoke;
@@ -151,7 +131,6 @@ footer  {
   color: black;
   font-size: 2vw;
 }
-
 #scratch  {
   border-radius: 100%;
   width: 15vw ;
